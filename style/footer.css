@@ -1,0 +1,37 @@
+/* footer styles */
+
+#footer {
+  /* position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; */
+  display: block;
+  z-index: 2;
+  /* background: linear-gradient(180deg, #572451 0%, rgba(71, 100, 204, 0.64) 100%),
+      #000; */
+  background: var(
+    --linear-2-paints,
+    linear-gradient(
+      180deg,
+      rgba(159, 72, 72, 0.2) 0%,
+      rgba(159, 72, 72, 0.14) 27.6%,
+      rgba(159, 72, 72, 0.08) 60.42%,
+      rgba(159, 72, 72, 0) 100%
+    ),
+    linear-gradient(180deg, #572451 0%, rgb(68, 93, 185) 100%)
+  );
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50px 50px 0px 0px;
+  border-top: 3px solid var(--Linear, #f5be30);
+  border-right: 3px solid var(--Linear, #f5be30);
+  border-left: 3px solid var(--Linear, #f5be30);
+}
+
+.footer__container {
+  /* max-width: 1300px; */
+  margin: 0 auto;
+}
